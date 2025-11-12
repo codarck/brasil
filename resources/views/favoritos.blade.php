@@ -223,15 +223,17 @@
             @php $isFav = in_array($c->id, (array)$favorites); @endphp
 
             <div class="contact-card bg-white/5 p-5 rounded border border-white/10 flex gap-4 items-start" data-id="{{ $c->id }}" data-nome="{{ $c->nome }}" data-instituicao="{{ $c->instituicao }}" data-bairro="{{ $c->bairro }}" data-cidade="{{ $c->cidade }}" data-category="{{ $c->category ?? '' }}">
-              <div class="w-14 h-14 bg-white/6 rounded flex items-center justify-center text-white/80 font-semibold text-base">
+<div class="w-14 h-14 bg-white/6 rounded-full overflow-hidden flex items-center justify-center text-white/80 font-semibold text-base">
   @if(!empty($c->avatar))
-    <img src="{{ asset('storage/' . $c->avatar) }}" alt="{{ $c->nome }}" class="w-12 h-12 rounded-full object-cover">
+    <img src="{{ asset('storage/' . $c->avatar) }}" alt="{{ $c->nome }}" class="w-full h-full object-cover">
   @else
     @php
       $parts = preg_split('/\s+/', trim($c->nome));
       $initials = strtoupper(($parts[0][0] ?? '') . ($parts[1][0] ?? ''));
     @endphp
-    {{ $initials ?: 'Dr' }}
+    <div class="w-full h-full flex items-center justify-center bg-white/6 text-white/90 text-sm font-semibold">
+      {{ $initials ?: 'Dr' }}
+    </div>
   @endif
 </div>
 

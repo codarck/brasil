@@ -183,7 +183,7 @@
 <div class="relative mb-3">
   <div id="pref-multi" class="flex flex-wrap items-center gap-2 rounded bg-white/3">
 
-    <input id="pref-search" type="text" placeholder="Escribe y presiona Enter..." autocomplete="off"
+    <input id="pref-search" type="text" placeholder="" autocomplete="off"
       class="w-full p-2 rounded bg-white/3 mb-3 text-black" />
   </div>
 <div id="pref-tags" class="flex flex-wrap gap-2"></div>
@@ -194,7 +194,7 @@
 <label class="block text-base mb-2">Local de trabalho</label> <!-- escribir-->
 <div class="relative mb-3">
   <div id="local-multi" class="flex flex-wrap items-center gap-2  rounded bg-white/3">
-    <input id="local-search" type="text" placeholder="Escribe y presiona Enter..." autocomplete="off"
+    <input id="local-search" type="text" placeholder="" autocomplete="off"
       class="w-full p-2 rounded bg-white/3 mb-3 text-black" />
   </div>
 
