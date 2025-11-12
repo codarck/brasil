@@ -665,7 +665,7 @@ Palavras chave: <br>
 <div class="bg-white/5 p-4 rounded border border-white/10">
         <div class="flex items-start gap-3">
           <div class="w-14 h-14 bg-white/6 rounded flex items-center justify-center text-white/80 font-semibold text-base">
-<img src="{{ asset('storage/Clínica_Plastique.png') }}" alt="" class="w-12 h-12 rounded-full object-cover">
+<img src="{{ asset('storage/Clínica_plastique.png') }}" alt="" class="w-12 h-12 rounded-full object-cover">
            </div>
 
           <div class="flex-1">
@@ -848,7 +848,7 @@ Hospital, Jardim Iracema, São Paulo</div>
 <div class="bg-white/5 p-4 rounded border border-white/10">
         <div class="flex items-start gap-3">
           <div class="w-14 h-14 bg-white/6 rounded flex items-center justify-center text-white/80 font-semibold text-base">
-<img src="{{ asset('storage/stella.png') }}" alt="" class="w-12 h-12 rounded-full object-cover">
+<img src="{{ asset('storage/Stella.png') }}" alt="" class="w-12 h-12 rounded-full object-cover">
            </div>
           <div class="flex-1">
             <div class="flex justify-between items-start gap-2">
@@ -2496,7 +2496,7 @@ Palavras chave: <br>
 <div class="bg-white/5 p-4 rounded border border-white/10">
         <div class="flex items-start gap-3">
           <div class="w-14 h-14 bg-white/6 rounded flex items-center justify-center text-white/80 font-semibold text-base">
-<img src="{{ asset('storage/Clínica_Plastique.png') }}" alt="" class="w-12 h-12 rounded-full object-cover">
+<img src="{{ asset('storage/Clínica_plastique.png') }}" alt="" class="w-12 h-12 rounded-full object-cover">
            </div>
           <div class="flex-1">
             <div class="flex justify-between items-start gap-2">
@@ -2541,7 +2541,7 @@ Palavras chave: <br>
 <div class="bg-white/5 p-4 rounded border border-white/10">
         <div class="flex items-start gap-3">
           <div class="w-14 h-14 bg-white/6 rounded flex items-center justify-center text-white/80 font-semibold text-base">
-<img src="{{ asset('storage/stella.png') }}" alt="" class="w-12 h-12 rounded-full object-cover">
+<img src="{{ asset('storage/Stella.png') }}" alt="" class="w-12 h-12 rounded-full object-cover">
            </div>
           <div class="flex-1">
             <div class="flex justify-between items-start gap-2">
