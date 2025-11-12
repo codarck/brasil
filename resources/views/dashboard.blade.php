@@ -261,7 +261,7 @@ Tive experiência como Diretor médico na Clínica Corazón de Jesús em Lima, P
     </li>
     <li>
         <div class="flex justify-between mb-1 text-xl text-white font-semibold">
-            <i>Cirurgia estetica </i>
+            <i>Cirurgia estética </i>
             <span class="text-xl opacity-90">--</span>
         </div>
         <div class="h-2 bg-white/10 rounded overflow-hidden">
@@ -427,9 +427,9 @@ Tive experiência como Diretor médico na Clínica Corazón de Jesús em Lima, P
 PREFERÊNCIAS DO CIRURGIÃO</div>
 
 <i class="mt-4 flex items-center gap-3 py-2 text-lg text-white ">
-    Cirurgia Estética: contorno corporal. <br>
+    Cirurgia estética: contorno corporal. <br>
     Cirurgia reparadora: cirurgia reparadora mamária. <br>
-    Cirurgia Estética: rinoplastia. <br>
+    Cirurgia estética: rinoplastia. <br>
 
 </i>
 <div class="flex flex-row-reverse space-x-4 space-x-reverse">
@@ -439,6 +439,7 @@ PREFERÊNCIAS DO CIRURGIÃO</div>
             d="M15.232 5.232l3.536 3.536M4 20l7.5-1.5L20 9.5a2.121 2.121 0 000-3L17.5 4a2.121 2.121 0 00-3 0L4 14.5V20z"/>
     </svg>
     </div>
+    <p class="py-4"></p>
 <hr>
 <br>
 <div class="py-1 bg-white/8 text-white rounded-md font-semibold tracking-wider text-base">
@@ -487,6 +488,7 @@ PALAVRAS CHAVE (ASSUNTOS DE INTERESSE)
     </svg>
     </div>
 </div>
+
 <div id="descricao" hidden>
   <div class="grid gap-4 py-4">
     <div class="bg-white/5 p-4 rounded border border-white/10 ">

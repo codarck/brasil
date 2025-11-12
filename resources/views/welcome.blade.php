@@ -131,8 +131,12 @@
                 <section class="w-full text-center">
                     <h1 class="text-4xl sm:text-5xl lg:text-5xl font-extrabold tracking-tight text-white drop-shadow-md mb-4">PLATAFORMA DE INTEGRAÇÃO ACADÊMICA DE <br> CIRURGIÕES PLÁSTICOS</h1>
 
-                    <p class="mx-auto max-w-2xl text-lg text-white/90 mb-8">Plataforma digital voltada para promover o intercâmbio educacional entre residentes, serviços de residência, clínica e hospitais credenciados, assim como cirurgiões plásticos com experiência em determinada área de atuação na Cirurgia Plástica.</p>
-
+                    <p class="mx-auto max-w-2xl text-lg text-white/90 mb-8">Plataforma digital voltada para promover o intercâmbio educacional entre residentes, serviços de residência, clínicas e hospitais credenciados, assim como cirurgiões plásticos com experiência em determinada área de  conhecimento na Cirurgia Plástica.</p>
+                     <span
+                class="inline-flex items-center justify-center w-24 h-24 rounded-full ring-4 ring-emerald-300 border border-white/20 shadow-md mb-6"
+                style="background-image: linear-gradient(rgba(3,163,165,0.55), rgba(3,163,165,0.55)), url('https://www.cirurgiaplastica.org.br/wp-content/uploads/2017/10/banner_regionais.jpg'); background-size:cover; background-position:center;">
+                <span class="text-white font-bold text-2xl drop-shadow-md">IASBCP</span>
+            </span>
                     {{-- <div class="flex items-center justify-center gap-4 mb-12">
                         <a href="{{ route('login') }}" class="inline-flex items-center gap-3 px-6 py-3 bg-[#01AAAD] hover:from-emerald-600 hover:to-teal-700 text-white rounded-full font-medium shadow-lg transition">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" /></svg>
@@ -141,6 +145,8 @@
 
 
                     </div> --}}
+
+
                 </section>
             </main>
         </div>

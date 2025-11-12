@@ -55,7 +55,7 @@
                       <td class=" p-2 text-center"> <span class="font-bold text-white text-base"> 28 dias  </span></td>
                           <td class="text-center"> <span class="font-bold text-white text-base"> 01/02/2026  </span> <br>
                           <td class="text-center"> <span class="font-bold text-white text-base"> 28/02/2026  </span>  </td>
-                      <td class=" p-2 flex"> <span class="font-bold text-white text-base"> <button class="px-3 py-1 bg-white/10 rounded text-white text-sm" data-trigger-category="andamento" title="Abrir Processos em andamento">
+                      <td class=" p-2 flex"> <span class="font-bold text-white text-base"> <button class="px-3 py-1 bg-white/10 rounded text-white text-sm" data-trigger-category="andamento" title="Trocar estágio">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -104,7 +104,7 @@
                       <td class=" p-2 text-center"> <span class="font-bold text-white text-base"> 30 dias  </span></td>
                       <td class="text-center"> <span class="font-bold text-white text-base"> 01/04/2025  </span> <br>
                       <td class="text-center"> <span class="font-bold text-white text-base"> 30/04/2025  </span>  </td>
-                      <td class=" p-2 flex"> <span class="font-bold text-white text-base"> <button class="px-3 py-1 bg-white/10 rounded text-white text-sm" data-trigger-category="andamento" title="Abrir Processos em andamento">
+                      <td class=" p-2 flex"> <span class="font-bold text-white text-base"> <button class="px-3 py-1 bg-white/10 rounded text-white text-sm" data-trigger-category="andamento" title="Trocar estágio">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -152,7 +152,7 @@
                       <td class=" p-2 text-center"> <span class="font-bold text-white text-base">15 dias</td>
                       <td class="text-center"> <span class="font-bold text-white text-base "> 01/05/2026  </span> <br>
                       <td class="text-center"> <span class="font-bold text-white text-base"> 15/05/2026  </span>  </td>
-                      <td class=" p-2 flex"> <span class="font-bold text-white text-base"> <button class="px-3 py-1 bg-white/10 rounded text-white text-sm" data-trigger-category="andamento" title="Abrir Processos em andamento">
+                      <td class=" p-2 flex"> <span class="font-bold text-white text-base"> <button class="px-3 py-1 bg-white/10 rounded text-white text-sm" data-trigger-category="andamento" title="Trocar estágio">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -200,7 +200,7 @@
                       <td class=" p-2 text-center"> <span class="font-bold text-white text-base">15 dias</td>
                       <td class="text-center"> <span class="font-bold text-white text-base"> 16/05/2026  </span> <br>
                       <td class="text-center"> <span class="font-bold text-white text-base"> 31/05/2026  </span>  </td>
-                      <td class=" p-2 flex"> <span class="font-bold text-white text-base"> <button class="px-3 py-1 bg-white/10 rounded text-white text-sm" data-trigger-category="andamento" title="Abrir Processos em andamento">
+                      <td class=" p-2 flex"> <span class="font-bold text-white text-base"> <button class="px-3 py-1 bg-white/10 rounded text-white text-sm" data-trigger-category="andamento" title="Trocar estágio">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -248,7 +248,7 @@
                       <td class=" p-2 text-center"> <span class="font-bold text-white text-base">61 dias</span></td>
                       <td class="text-center"> <span class="font-bold text-white text-base"> 01/03/2027  </span> <br>
                       <td class="text-center"> <span class="font-bold text-white text-base"> 30/04/2027  </span>  </td>
-                      <td class=" p-2 flex "> <span class="font-bold text-white text-base"> <button class="px-3 py-1 bg-white/10 rounded text-white text-sm" data-trigger-category="andamento" title="Abrir Processos em andamento">
+                      <td class=" p-2 flex "> <span class="font-bold text-white text-base"> <button class="px-3 py-1 bg-white/10 rounded text-white text-sm" data-trigger-category="andamento" title="Trocar estágio">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -296,7 +296,7 @@
                       <td class=" p-2 text-center"> <span class="font-bold text-white text-base"> 15 dias</span></td>
                       <td class=" p-2 text-center"> <span class="font-bold text-white text-base">01/09/2027</span></td>
                       <td class=" p-2 text-center"> <span class="font-bold text-white text-base">15/09/2027</span></td>
-                      <td class=" p-2 flex"> <span class="font-bold text-white text-base"> <button class="px-3 py-1 bg-white/10 rounded text-white text-sm" data-trigger-category="andamento" title="Abrir Processos em andamento">
+                      <td class=" p-2 flex"> <span class="font-bold text-white text-base"> <button class="px-3 py-1 bg-white/10 rounded text-white text-sm" data-trigger-category="andamento" title="Trocar estágio">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -314,7 +314,7 @@
   </svg>
 </button> </span>
                     &nbsp;
-                <span class="font-bold text-white text-base"> <button class="px-3 py-1 bg-white/10 rounded text-white text-sm edit-btn" data-idx="${idx}" title="Procurar estágio">
+                <span class="font-bold text-white text-base"><a href="/solicitudes"> <button class="px-3 py-1 bg-white/10 rounded text-white text-sm edit-btn" data-idx="${idx}" title="Procurar estágio">
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -333,7 +333,7 @@
 
 
 
-                    </button> </span>
+                    </button> </a></span>
 
                 </td>
                   </tr>

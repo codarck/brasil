@@ -176,7 +176,7 @@
     document.querySelectorAll('.contact-item').forEach(li => {
       li.addEventListener('click', () => selectContact(li.dataset.id));
     });
-
+ setTimeout(() => selectContact(7), 0);
     // file attach handling
     document.getElementById('attachFileBtn')?.addEventListener('click', function(){
       const input = document.getElementById('attachFileInput');
@@ -255,7 +255,6 @@
 
 
 
-
 <style>
     body {
       margin: 0;
@@ -271,23 +270,42 @@
         transition: all .3d ease;
         font-family: Arial, sans-serif;
     }
+    .chat-widget.minimized{
+        height:50px;
+        width: 180px;
+        cursor:pointer;
+        overflow: hidden;
+    }
+    .chat-widget:not(.minimized) .chat-toggle{
+        display: none;
+    }
 
 
+    .chat-toggle{
+        background: #007Bff;
+        color: white;
+        padding:10px;
+        border-radius:10px;
+        text-align:center;
+        font-weight: bold;
+        user-select: none;
+
+    }
     /* Contenedor general */
     .chat-container {
-      position: fixed;
-      right: 20px;
+      /*position: fixed;*/
+      /*right: 20px;
       bottom: 20px;
       width: 320px;
 
       border-radius: 12px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.5);*/
       background: #161b22;
-
-
+      bottom: 20px;
+      width: 320px;
       border-radius: 10px;
       display: flex;
-
+      overflow: hidden;
       flex-direction: column;
       animation: slide-up 0.4s ease;
     }
@@ -341,12 +359,12 @@
     /* Burbujas */
     .bubble {
       max-width: 80%;
-      padding: 10px;
+      padding: 10px 12px;
       border-radius: 12px;
       font-size: 14px;
       line-height: 1.4;
-
-
+      word-wrap: break-word;
+      animation: fade-in 0.3s ease;
     }
 
     .me {
@@ -399,15 +417,15 @@
     }
   </style>
 
-<div  id="chatWidget" class="chat-widget ">
-
+<div id="chatWidget" class="chat-widget minimized">
+    <div class="chat-toggle" >
+        💬 Chat IASBCP
+    </div>
 
   <div class="chat-container ">
     <div class="chat-header ">💬 Chat IASBCP</div>
-   <div class="chat-body " id="chatBody">
-      <div class="bubble bot">  Ola 🤚  sou a inteligência artificial da SBCP. Percebi que está procurando vagas de estágio. Qual tipo de estágio seria para ajudá-lo?</div>
-      <div class="bubble me">  Optativo, Cirurgia Estética</div>
-      <div class="bubble bot">  Muito obrigado</div>
+    <div class="chat-body " id="chatBody">
+      <div class="bubble bot">  Olá 👋, sou a inteligência artificial da SBCP, me diga como posso te ajudar hoje?</div>
     </div>
 
     <div class="chat-footer">
@@ -463,11 +481,25 @@
     chatInput.addEventListener('keypress', e => {
       if (e.key === 'Enter') sendBtn.click();
     });
-
-      appendMessage("hola", 'me');
-
-      const typing = appendTyping();
-
   </script>
+
+<script>
+document.addEventListener('click', function(e){
+  const trigger = e.target.closest('[data-trigger-category]');
+  if (!trigger) return;
+
+  const cat = trigger.dataset.triggerCategory;
+  if (!cat) return;
+
+  // busca el botón de pestaña correspondiente (prioriza el primero visible)
+  const tabBtn = document.querySelector('.category-btn[data-value="'+cat+'"]');
+  if (tabBtn) {
+    tabBtn.click(); // simula la selección
+    // opcional: desplazar al área de contenido
+    const pane = document.getElementById('content-' + cat);
+    if (pane) pane.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+});
+</script>
 
 </x-app-layout>

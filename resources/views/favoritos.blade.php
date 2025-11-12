@@ -1,5 +1,5 @@
 <x-app-layout>
-  <div class="max-w-8xl mx-auto py-6 px-4">
+  <div class="max-w-8xl mx-auto">
     <h1 class="text-2xl font-semibold text-white mb-4">Favoritos</h1>
 
     @php
@@ -17,7 +17,7 @@
           'cidade'=>'São Paulo',
           'estrelas'=>4.9,
           'category'=>'professor',
-          'preferencias'=>'Cirurgia estética, cirurgia reparadora',
+          'preferencias'=>'cirurgia estética, cirurgia reparadora',
           'palavras_chave'=>'cirurgia estética mamária, cirurgia reparadora mamária, contorno corporal, cirurgia estética da face, cirurgia estética pós bariátrica, cosmiatria, orbitopalpebral',
           'show_gps'=>false,
           'show_stars'=>false
@@ -32,7 +32,7 @@
           'cidade'=>'São Paulo',
           'estrelas'=>4.6,
           'category'=>'professor',
-          'preferencias'=>'Cirurgia estética',
+          'preferencias'=>'cirurgia estética',
           'palavras_chave'=>'cirurgia mamaria, contorno corporal, cirurgia estética da face, cirurgia estética pós bariátrica, cosmiatria, orbitopalpebral',
           'show_gps'=>false,
           'show_stars'=>false
@@ -53,17 +53,63 @@
           'show_gps'=>false,
           'show_stars'=>false
         ],*/
+(object)[
+          'id'=>13,
+          'nome'=>'Clínica de Cirurgia Plástica - André Parreira de Castro',
+          'avatar'=>'Andre_P_Castro.png',
+          'instituicao'=>'Clínica André Parreira',
+          'bairro'=>'',
+          'cidade'=>'São Paulo',
+          'km'=>'3.1',
+          'estrelas'=>4.0,
+          'category'=>'credenciados',
+          'preferencias'=>'cirurgia Estética',
+          'palavras_chave'=>'contorno corporal, cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, Cosmiatria',
+          'show_gps'=>false,
+          'show_stars'=>false
+        ],
+        (object)[
+          'id'=>11,
+          'nome'=>'Dra Aline Campos',
+          'avatar'=>'aline.png',
+          'instituicao'=>'Cirurgiã plástica credenciada',
+          'bairro'=>'Moema',
+          'cidade'=>'São Paulo',
+          'km'=>'12',
+          'estrelas'=>4.0,
+          'category'=>'credenciados',
+          'preferencias'=>'cirurgia estética, cirurgia reparadora',
+          'palavras_chave'=>'cirurgia estética mamária, cirurgia reparadora mamária, contorno corporal',
+          'show_gps'=>false,
+          'show_stars'=>false
+        ],
+        (object)[
+          'id'=>14,
+          'nome'=>'Dr Lucas Rinaldi',
+          'avatar'=>'lucas.png',
+          'instituicao'=>'Cirurgião plástico credenciado, Tatuapé, São Paulo',
+          'bairro'=>'Guarulhos',
+          'cidade'=>'São Paulo',
+          'km'=>'18',
+          'estrelas'=>4.1,
+          'category'=>'credenciados',
+          'preferencias'=>'cirurgia Estética',
+          'palavras_chave'=>'contorno corporal, lipoaspiração de alta definição, cirurgia mamária, orbitopalpebral , rinoplastia , cirurgia estética da face, cirurgia estética pós bariátrica, Cosmiatria',
+          'show_gps'=>false,
+          'show_stars'=>false
+        ],
 
         (object)[
           'id'=>2,
-          'nome'=>'Setor de Cirurgia Plástica e Unidade de Terapia de Queimados - Hospital Vila Penteado',
+          'nome'=>'Setor de Cirurgia Plástica e Unidade de Terapia de Queimados ',
           'avatar'=>'Hospital_Vila_Penteado.png',
-          'instituicao'=>'Hospital Vila Penteado — Vila Penteado, São Paulo',
-          'bairro'=>'Vila Penteado',
+          'instituicao'=>'Hospital Vila Penteado Hospital',
+          'bairro'=>'Jardim Iracema',
           'cidade'=>'São Paulo',
+          'km'=>'21',
           'estrelas'=>4.1,
           'category'=>'servico',
-          'preferencias'=>'Tratamiento de queimados, cirurgia de mão, cirurgia reparadora',
+          'preferencias'=>'tratamiento de queimados, cirurgia de mão, cirurgia reparadora',
           'palavras_chave'=>'grande queimado, cirurgia reparadora, retalhos, enxertos',
           'show_gps'=>false,
           'show_stars'=>false
@@ -79,26 +125,14 @@
           'cidade'=>'São Paulo',
           'estrelas'=>4.2,
           'category'=>'credenciados',
-          'preferencias'=>'Cirurgia reparadora, microcirurgia, cirurgia de mão',
-          'palavras_chave'=>'Cirurgia reparadora mamária, retalhos, enxertos, microcirurgia',
+          'preferencias'=>'cirurgia reparadora, microcirurgia, cirurgia de mão',
+          'palavras_chave'=>'cirurgia reparadora mamária, retalhos, enxertos, microcirurgia',
           'show_gps'=>false,
           'show_stars'=>false
         ],
 */
-        (object)[
-          'id'=>11,
-          'nome'=>'Hospital Municipal Infantil Menino Jesus',
-          'avatar'=>'aline.png',
-          'instituicao'=>'Hospital Menino Jesus',
-          'bairro'=>'Copacabana',
-          'cidade'=>'Rio de Janeiro',
-          'estrelas'=>4.0,
-          'category'=>'credenciados',
-          'preferencias'=>'Cirurgia crânio-maxilo-facial, Tratamiento de queimados, Cirurgia reparadora, Microcirurgia',
-          'palavras_chave'=>'defeitos da face, cirurgia reparadora de face, grande queimado infantil',
-          'show_gps'=>false,
-          'show_stars'=>false
-        ],
+
+
 
         (object)[
           'id'=>12,
@@ -107,43 +141,18 @@
           'instituicao'=>'Serviço de cirurgia plástica, Guarulhos, São Paulo',
           'bairro'=>'',
           'cidade'=>'São Paulo',
+          'km'=>'27',
           'estrelas'=>3.9,
           'category'=>'credenciados',
-          'preferencias'=>'Cirurgia Estética, Cirurgia reparadora',
+          'preferencias'=>'cirurgia Estética, cirurgia reparadora',
           'palavras_chave'=>'cirurgia mamaria, contorno corporal, orbitopalpebral',
           'show_gps'=>false,
           'show_stars'=>false
         ],
 
-        (object)[
-          'id'=>13,
-          'nome'=>'Clínica de Cirurgia Plástica - André Parreira de Castro',
-          'avatar'=>'Andre_P_Castro.png',
-          'instituicao'=>'Clínica André Parreira',
-          'bairro'=>'',
-          'cidade'=>'São Paulo',
-          'estrelas'=>4.0,
-          'category'=>'credenciados',
-          'preferencias'=>'Cirurgia Estética',
-          'palavras_chave'=>'contorno corporal, cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, Cosmiatria',
-          'show_gps'=>false,
-          'show_stars'=>false
-        ],
 
-        (object)[
-          'id'=>14,
-          'nome'=>'Dr Lucas Rinaldi',
-          'avatar'=>'lucas.png',
-          'instituicao'=>'Cirurgião plástico credenciado, Tatuapé, São Paulo',
-          'bairro'=>'Guarulhos',
-          'cidade'=>'São Paulo',
-          'estrelas'=>4.1,
-          'category'=>'credenciados',
-          'preferencias'=>'Cirurgia Estética',
-          'palavras_chave'=>'contorno corporal, lipoaspiração de alta definição, cirurgia mamária, orbitopalpebral , rinoplastia , cirurgia estética da face, cirurgia estética pós bariátrica, Cosmiatria',
-          'show_gps'=>false,
-          'show_stars'=>false
-        ],
+
+
 
         // Formados / outros usuarios
         (object)[
@@ -153,9 +162,10 @@
           'instituicao'=>'Residente de 1• ano, Serviço de Cirurgia Plástica Dr. Oswaldo de Castro — Moema, São Paulo',
           'bairro'=>'Moema',
           'cidade'=>'São Paulo',
+          'km'=>'',
           'estrelas'=>4.7,
           'category'=>'formado',
-          'preferencias'=>'Cirurgia estética, cirurgia reparadora',
+          'preferencias'=>'cirurgia estética, cirurgia reparadora',
           'palavras_chave'=>'cirurgia mamária, contorno corporal, cirurgia estética da face, rinoplastia, cirugía estética pós bariátrica, cosmiatria, orbitopalpebral'
         ],
 
@@ -166,9 +176,10 @@
           'instituicao'=>'Residente de 3º ano - Serviço de Cirurgia Plástica Dr. Oswaldo de Castro — Aclimação, São Paulo',
           'bairro'=>'Aclimação',
           'cidade'=>'São Paulo',
+          'km'=>'',
           'estrelas'=>4.6,
           'category'=>'formado',
-          'preferencias'=>'Cirurgia estética, cirurgia reparadora',
+          'preferencias'=>'cirurgia estética, cirurgia reparadora',
           'palavras_chave'=>'cirurgia mamária, contorno corporal, cirurgia estética da face, rinoplastia, cirugía estética pós bariátrica, cosmiatria, orbitopalpebral'
         ],
       ]);
@@ -236,10 +247,14 @@
                       <div class="text-white font-medium">{{ $c->estrelas }} ⭐</div>
                     @endif
                     @if(!isset($c->show_gps) || $c->show_gps)
+
                       <div class="text-sm text-white/60 mt-1 flex items-center gap-1">
-                        <svg class="w-4 h-4 fill-current text-white/80" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM12 11.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
-                        <span class="text-white/70"></span>
+
                       </div>
+                    @else
+                    {{-- <svg class="w-4 h-4 fill-current text-white/80" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM12 11.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+                        <span class="text-white/70"></span> --}}
+                   {{ $c->km }}km
                     @endif
                   </div>
                 </div>
@@ -308,10 +323,10 @@
 
                   </div>
 
-                  <div class="mt-2 flex gap-3">
-                    <a href="#" class="px-3 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base ">Ver perfil</a>
-                    <a href="/chat" class="px-3 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base">Conversar</a>
-                    <a href="#" class="px-3 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base">Detalhes do estágio</a>
+                  <div class="mt-1 flex  items-center gap-2   ">
+                    <a href="#" class="px-4 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base text-center">Ver perfil</a>
+                    <a href="/chat" class="px-3 py-4 bg-white/10 hover:bg-emerald-500 rounded text-white text-base text-center">Conversar</a>
+                    <a href="#" class=" py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base text-center">Detalhes do estágio</a>
                   </div>
                 </div>
               </div>
@@ -361,8 +376,12 @@ document.addEventListener('DOMContentLoaded', function () {
               <div class="font-semibold text-white">Dra Aline Campos</div>
               <div class="text-base text-white/70">Cirurgiã plástica credenciada, Moema, São Paulo</div>
             </div>
+            <div class="text-right">
+
+
+            </div>
             <div class="flex items-center gap-2 text-white/80">
-              <svg class="w-4 h-4 fill-current text-white" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M0 188.6C0 84.4 86 0 192 0S384 84.4 384 188.6c0 119.3-120.2 262.3-170.4 316.8-11.8 12.8-31.5 12.8-43.3 0-50.2-54.5-170.4-197.5-170.4-316.8zM192 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z"/></svg>
+              <svg class="w-4 h-4 fill-current text-white" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M0 188.6C0 84.4 86 0 192 0S384 84.4 384 188.6c0 119.3-120.2 262.3-170.4 316.8-11.8 12.8-31.5 12.8-43.3 0-50.2-54.5-170.4-197.5-170.4-316.8zM192 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z"/></svg>5.2km
               <a href="#"><div class="text-sm"></div></a>
             </div>
           </div>
@@ -370,7 +389,7 @@ document.addEventListener('DOMContentLoaded', function () {
            <div class="mt-3 text-base text-white/70">Estágios credenciados: <br>
 
             <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia estética
+    cirurgia estética
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia reparadora
@@ -405,15 +424,11 @@ Palavras-chave:
 </span>
 </span>
 <span class="text-white" id="keyword3-toggle"> <button onclick="keyword3()">...</button></span>
-          <div class="mt-4">
-
-            <div class="mt-3 flex gap-2">
-            <a href="dashboard" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Ver perfil</a>
-            <a href="/chat" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Conversar</a>
-            <button class="px-3 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base">Detalhes do estágio</button>
-
-          </div>
-          </div>
+          <div class="mt-1 flex  items-center gap-2   ">
+                    <a href="#" class="px-4 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base text-center">Ver perfil</a>
+                    <a href="/chat" class="px-3 py-4 bg-white/10 hover:bg-emerald-500 rounded text-white text-base text-center">Conversar</a>
+                    <a href="#" class="px-2 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base text-center">Detalhes do estágio</a>
+                  </div>
         </div>
       </div>
     </div>
@@ -430,14 +445,15 @@ Palavras-chave:
               <div class="text-base text-white/70">Cirurgião plástico credenciado, Tatuapé, São Paulo</div>
             </div>
             <div class="flex items-center gap-2 text-white/80">
-              <svg class="w-4 h-4 fill-current text-white" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M0 188.6C0 84.4 86 0 192 0S384 84.4 384 188.6c0 119.3-120.2 262.3-170.4 316.8-11.8 12.8-31.5 12.8-43.3 0-50.2-54.5-170.4-197.5-170.4-316.8zM192 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z"/></svg>
+              <svg class="w-4 h-4 fill-current text-white" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M0 188.6C0 84.4 86 0 192 0S384 84.4 384 188.6c0 119.3-120.2 262.3-170.4 316.8-11.8 12.8-31.5 12.8-43.3 0-50.2-54.5-170.4-197.5-170.4-316.8zM192 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z"/></svg>5.2km
               <a href="#"><div class="text-sm"></div></a>
+
             </div>
           </div>
          <div class="mt-3 text-base text-white/70">Estágios credenciados: <br>
 
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Cirurgia Estética
+   cirurgia Estética
 </span>
                 <br>
 Palavras chave: <br>
@@ -471,15 +487,11 @@ Palavras chave: <br>
 <span class="text-white" id="keyword5-toggle"> <button onclick="keyword5()">...</button></span>
 </div>
 
-          <div class="mt-4">
-
-            <div class="mt-3 flex gap-2">
-            <a href="dashboard" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Ver perfil</a>
-            <a href="/chat" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Conversar</a>
-            <button class="px-3 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base">Detalhes do estágio</button>
-
-          </div>
-          </div>
+          <div class="mt-1 flex  items-center gap-2   ">
+                    <a href="#" class="px-4 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base text-center">Ver perfil</a>
+                    <a href="/chat" class="px-3 py-4 bg-white/10 hover:bg-emerald-500 rounded text-white text-base text-center">Conversar</a>
+                    <a href="#" class="px-2 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base text-center">Detalhes do estágio</a>
+                  </div>
         </div>
       </div>
     </div>
@@ -487,78 +499,34 @@ Palavras chave: <br>
 
   const fake = {
     servico: `
-      <div class="contact-card bg-white/5 p-5 rounded border border-white/10 flex gap-4 items-start" data-id="1" data-nome="Serviço de Cirurgia Plástica Dr. Oswaldo de Castro" data-instituicao="Serviço de Cirurgia Plástica — Brooklin, São Paulo" data-bairro="Brooklin" data-cidade="São Paulo" data-category="servico">
-        <div class="w-14 h-14 bg-white/6 rounded flex items-center justify-center text-white/80 font-semibold text-base">
-<img src="{{ asset('storage/oswaldo.png') }}" alt="" class="w-12 h-12 rounded-full object-cover">
-           </div>
-        <div class="flex-1">
-          <div class="flex items-start justify-between gap-3">
-            <div>
-              <div class="font-semibold text-white text-lg">Serviço de Cirurgia Plástica Dr. Oswaldo de Castro</div>
 
-              <div class="text-sm text-white/70 mt-1">Serviço de Cirurgia Plástica — Brooklin, São Paulo</div>
-            </div>
-            <div class="text-right">
 
-              <div class="text-xs text-white/60 mt-1"></div>
-            </div>
-          </div>
-
-          <div class="mt-3 text-white/70">Estágios credenciados: <br>
-                <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia Estética
-</span>
-<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia reparadora
-</span>
-                  <br >
-                  <span class="text-white">Palavras-chave:</span>
-            <br>
-
-            <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    cirurgia mamaria
-</span>
-<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    contorno corporal
-</span>
-<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    orbitopalpebral
-</span>
-<span class="text-white">...</span>
-                  </div>
-          <div class="mt-4">
-
-            <div class="mt-3 flex gap-2">
-            <a href="dashboard" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Ver perfil</a>
-            <a href="/chat" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Conversar</a>
-            <button class="px-3 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base">Detalhes do estágio</button>
-
-          </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="contact-card bg-white/5 p-5 rounded border border-white/10 flex gap-4 items-start" data-id="2" data-nome="Setor de Cirurgia Plástica e Unidade de Terapia de Queimados - Hospital Vila Penteado" data-instituicao="Hospital Vila Penteado" data-bairro="Vila Penteado" data-cidade="São Paulo" data-category="servico">
+      <div class="contact-card bg-white/5 p-5 rounded border border-white/10 flex gap-4 items-start" data-id="2" data-nome="Setor de Cirurgia Plástica e Unidade de Terapia de Queimados " data-bairro="Vila Penteado" data-cidade="São Paulo" data-category="servico">
         <div class="w-14 h-14 bg-white/6 rounded flex items-center justify-center text-white/80 font-semibold text-base">
 <img src="{{ asset('storage/Hospital_Vila_Penteado.png') }}" alt="" class="w-12 h-12 rounded-full object-cover">
            </div>
         <div class="flex-1">
           <div class="flex items-start justify-between gap-3">
             <div>
-              <div class="font-semibold text-white text-lg">Setor de Cirurgia Plástica e Unidade de Terapia de Queimados - Hospital Vila Penteado</div>
+              <div class="font-semibold text-white text-lg">Setor de Cirurgia Plástica e Unidade de Terapia de Queimados </div>
 
               <div class="text-sm text-white/70 mt-1">Hospital Vila Penteado
 Hospital, Jardim Iracema, São Paulo</div>
             </div>
             <div class="text-right">
 
+                <div class="flex items-center gap-2 text-white/80">
+              <svg class="w-4 h-4 fill-current text-white" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M0 188.6C0 84.4 86 0 192 0S384 84.4 384 188.6c0 119.3-120.2 262.3-170.4 316.8-11.8 12.8-31.5 12.8-43.3 0-50.2-54.5-170.4-197.5-170.4-316.8zM192 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z"/></svg>21km
+              <a href="#"><div class="text-sm"></div></a>
+
+            </div>
               <div class="text-xs text-white/60 mt-1"></div>
             </div>
           </div>
           <div class="mt-3 text-base text-white/70">
                 Estágios credenciados:  <br>
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Tratamento de queimados
+    tratamento de queimados
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia de mão
@@ -581,15 +549,65 @@ Hospital, Jardim Iracema, São Paulo</div>
     retalhos
 </span>
 <span class="text-white">...</span>
-          <div class="mt-4">
+          <div class="mt-1 flex  items-center gap-2   ">
+                    <a href="#" class="px-4 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base text-center">Ver perfil</a>
+                    <a href="/chat" class="px-3 py-4 bg-white/10 hover:bg-emerald-500 rounded text-white text-base text-center">Conversar</a>
+                    <a href="#" class="px-2 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base text-center">Detalhes do estágio</a>
+                  </div>
+        </div>
+      </div>
 
-            <div class="mt-3 flex gap-2">
-            <a href="dashboard" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Ver perfil</a>
-            <a href="/chat" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Conversar</a>
-            <button class="px-3 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base">Detalhes do estágio</button>
 
+      <div class="contact-card bg-white/5 p-5 rounded border border-white/10 flex gap-4 items-start" data-id="1" data-nome="Serviço de Cirurgia Plástica Dr. Oswaldo de Castro" data-instituicao="Serviço de Cirurgia Plástica — Brooklin, São Paulo" data-bairro="Brooklin" data-cidade="São Paulo" data-category="servico">
+        <div class="w-14 h-14 bg-white/6 rounded flex items-center justify-center text-white/80 font-semibold text-base">
+<img src="{{ asset('storage/oswaldo.png') }}" alt="" class="w-12 h-12 rounded-full object-cover">
+           </div>
+        <div class="flex-1">
+
+          <div class="flex items-start justify-between gap-3">
+
+            <div>
+              <div class="font-semibold text-white text-lg">Serviço de Cirurgia Plástica Dr. Oswaldo de Castro</div>
+
+              <div class="text-sm text-white/70 mt-1">Serviço de Cirurgia Plástica — Brooklin, São Paulo</div>
+            </div>
+            <div class="text-right">
+                <div class="flex items-center gap-2 text-white/80">
+              <svg class="w-4 h-4 fill-current text-white" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M0 188.6C0 84.4 86 0 192 0S384 84.4 384 188.6c0 119.3-120.2 262.3-170.4 316.8-11.8 12.8-31.5 12.8-43.3 0-50.2-54.5-170.4-197.5-170.4-316.8zM192 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z"/></svg>27km
+              <a href="#"><div class="text-sm"></div></a>
+
+            </div>
+              <div class="text-xs text-white/60 mt-1"></div>
+            </div>
           </div>
-          </div>
+
+          <div class="mt-3 text-white/70">Estágios credenciados: <br>
+                <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    cirurgia Estética
+</span>
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    cirurgia reparadora
+</span>
+                  <br >
+                  <span class="text-white">Palavras-chave:</span>
+            <br>
+
+            <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    cirurgia mamaria
+</span>
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    contorno corporal
+</span>
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    orbitopalpebral
+</span>
+<span class="text-white">...</span>
+                  </div>
+          <div class="mt-1 flex  items-center gap-2   ">
+                    <a href="#" class="px-4 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base text-center">Ver perfil</a>
+                    <a href="/chat" class="px-3 py-4 bg-white/10 hover:bg-emerald-500 rounded text-white text-base text-center">Conversar</a>
+                    <a href="#" class="px-2 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base text-center">Detalhes do estágio</a>
+                  </div>
         </div>
       </div>
     `,
@@ -604,17 +622,34 @@ Hospital, Jardim Iracema, São Paulo</div>
       <div class="contact-card bg-white/5 p-5 rounded border border-white/10 flex gap-4 items-start" data-id="13" data-nome="Clínica de Cirurgia Plástica - André Parreira de Castro" data-instituicao="Clínica André Parreira" data-bairro="" data-cidade="São Paulo" data-category="credenciados">
          <div class="w-14 h-14 bg-white/6 rounded flex items-center justify-center text-white/80 font-semibold text-base">
 <img src="{{ asset('storage/Andre_P_Castro.png') }}" alt="" class="w-12 h-12 rounded-full object-cover">
+
            </div>
         <div class="flex-1">
-          <div class="font-semibold text-white">Clínica de Cirurgia Plástica - André Parreira de Castro</div>
+
+             <div class="flex items-start justify-between gap-3">
+                <div>
+<div class="font-semibold text-white">Clínica de Cirurgia Plástica - André Parreira de Castro</div>
+
           <div class="text-sm text-white/70 mt-1">Clínica, Moema, São Paulo</div>
+          </div>
+<div class="text-right">
+                <div class="flex items-center gap-2 text-white/80">
+              <svg class="w-4 h-4 fill-current text-white" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M0 188.6C0 84.4 86 0 192 0S384 84.4 384 188.6c0 119.3-120.2 262.3-170.4 316.8-11.8 12.8-31.5 12.8-43.3 0-50.2-54.5-170.4-197.5-170.4-316.8zM192 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z"/></svg>3.1km
+              <a href="#"><div class="text-sm"></div></a>
+
+            </div>
+            </div>
+          </div>
+
+
          <div class="mt-3 text-base text-white/70">Estágios credenciados: <br>
 
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia Estética
+    cirurgia Estética
     </span>
 
                 <br>
+
                 {{-- contorno corporal, cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, Cosmiatria --}}
 Palavras chave: <br>
     <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
@@ -629,15 +664,14 @@ Palavras chave: <br>
 
 
 </div>
-          <div class="mt-4">
 
-            <div class="mt-3 flex gap-2">
-            <a href="dashboard" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Ver perfil</a>
-            <a href="/chat" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Conversar</a>
-            <button class="px-3 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base">Detalhes do estágio</button>
 
-          </div>
-          </div>
+            <div class="mt-1 flex  items-center gap-2   ">
+                    <a href="#" class="px-4 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base text-center">Ver perfil</a>
+                    <a href="/chat" class="px-3 py-4 bg-white/10 hover:bg-emerald-500 rounded text-white text-base text-center">Conversar</a>
+                    <a href="#" class="px-2 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base text-center">Detalhes do estágio</a>
+                  </div>
+
         </div>
       </div>
 
@@ -666,7 +700,7 @@ Palavras chave: <br>
             <div class="text-base text-white/60">Preferências: <br>
 
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia estética
+    cirurgia estética
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia reparadora
@@ -686,9 +720,9 @@ Palavras chave: <br>
 </span>
 <span class="text-white">...</span>
             </div>
-            <div class="mt-3 flex gap-2">
-            <a href="/chat" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Conversar</a>
-            <button class="px-3 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base">Ver perfil</button>
+            <div class="mt-1 flex  items-center gap-2">
+            <a href="/chat" class="px-3 py-4 bg-white/10 hover:bg-emerald-500 rounded text-white text-base text-center">Conversar</a>
+            <button class="px-3 py-4 bg-white/10  hover:bg-emerald-500 rounded text-white text-base">Ver perfil</button>
 
           </div>
           </div>
@@ -714,7 +748,7 @@ Palavras chave: <br>
             <div class="text-base text-white/60">Preferências: <br>
 
             <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia estética
+    cirurgia estética
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia reparadora
@@ -734,11 +768,15 @@ Palavras chave: <br>
 </span>
 <span class="text-white">...</span>
             </div>
-            <div class="mt-3 flex gap-2">
-            <a href="/chat" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Conversar</a>
-            <button class="px-3 py-1 bg-white/10  hover:bg-emerald-500 rounded text-white text-base">Ver perfil</button>
+            <div class="mt-1 flex  items-center gap-2">
+            <a href="/chat" class="px-3 py-4 bg-white/10 hover:bg-emerald-500 rounded text-white text-base text-center">Conversar</a>
+            <button class="px-3 py-4 bg-white/10  hover:bg-emerald-500 rounded text-white text-base">Ver perfil</button>
 
           </div>
+
+
+
+
           </div>
         </div>
       </div>
@@ -815,7 +853,6 @@ Palavras chave: <br>
   });
 });
   </script>
-
 <style>
     body {
       margin: 0;
@@ -831,23 +868,42 @@ Palavras chave: <br>
         transition: all .3d ease;
         font-family: Arial, sans-serif;
     }
+    .chat-widget.minimized{
+        height:50px;
+        width: 180px;
+        cursor:pointer;
+        overflow: hidden;
+    }
+    .chat-widget:not(.minimized) .chat-toggle{
+        display: none;
+    }
 
 
+    .chat-toggle{
+        background: #007Bff;
+        color: white;
+        padding:10px;
+        border-radius:10px;
+        text-align:center;
+        font-weight: bold;
+        user-select: none;
+
+    }
     /* Contenedor general */
     .chat-container {
-      position: fixed;
-      right: 20px;
+      /*position: fixed;*/
+      /*right: 20px;
       bottom: 20px;
       width: 320px;
 
       border-radius: 12px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.5);*/
       background: #161b22;
-
-
+      bottom: 20px;
+      width: 320px;
       border-radius: 10px;
       display: flex;
-
+      overflow: hidden;
       flex-direction: column;
       animation: slide-up 0.4s ease;
     }
@@ -901,12 +957,12 @@ Palavras chave: <br>
     /* Burbujas */
     .bubble {
       max-width: 80%;
-      padding: 10px;
+      padding: 10px 12px;
       border-radius: 12px;
       font-size: 14px;
       line-height: 1.4;
-
-
+      word-wrap: break-word;
+      animation: fade-in 0.3s ease;
     }
 
     .me {
@@ -959,15 +1015,15 @@ Palavras chave: <br>
     }
   </style>
 
-<div  id="chatWidget" class="chat-widget ">
-
+<div id="chatWidget" class="chat-widget minimized">
+    <div class="chat-toggle" >
+        💬 Chat IASBCP
+    </div>
 
   <div class="chat-container ">
     <div class="chat-header ">💬 Chat IASBCP</div>
-   <div class="chat-body " id="chatBody">
-      <div class="bubble bot">  Ola 🤚  sou a inteligência artificial da SBCP. Percebi que está procurando vagas de estágio. Qual tipo de estágio seria para ajudá-lo?</div>
-      <div class="bubble me">  Optativo, Cirurgia Estética</div>
-      <div class="bubble bot">  Muito obrigado</div>
+    <div class="chat-body " id="chatBody">
+      <div class="bubble bot">  Olá 👋, sou a inteligência artificial da SBCP, me diga como posso te ajudar hoje?</div>
     </div>
 
     <div class="chat-footer">
@@ -1023,12 +1079,26 @@ Palavras chave: <br>
     chatInput.addEventListener('keypress', e => {
       if (e.key === 'Enter') sendBtn.click();
     });
-
-      appendMessage("hola", 'me');
-
-      const typing = appendTyping();
-
   </script>
+
+<script>
+document.addEventListener('click', function(e){
+  const trigger = e.target.closest('[data-trigger-category]');
+  if (!trigger) return;
+
+  const cat = trigger.dataset.triggerCategory;
+  if (!cat) return;
+
+  // busca el botón de pestaña correspondiente (prioriza el primero visible)
+  const tabBtn = document.querySelector('.category-btn[data-value="'+cat+'"]');
+  if (tabBtn) {
+    tabBtn.click(); // simula la selección
+    // opcional: desplazar al área de contenido
+    const pane = document.getElementById('content-' + cat);
+    if (pane) pane.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+});
+</script>
 
 
 

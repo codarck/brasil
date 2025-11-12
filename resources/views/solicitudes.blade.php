@@ -100,7 +100,7 @@
     }
 </style>
     <div id="fullscreen-loader" class="hidden" style="display: none;">
-        <div class="spinner"></div> cargando...
+        <div class="spinner"></div>
     </div>
 
   <div class=" mx-auto p-6">
@@ -169,7 +169,7 @@
         </div>
         </div>
 
-        <label class="block text-base mb-2">Estagio</label> <!-- escribir o seleccionar -->
+        <label class="block text-base mb-2">Estágio</label> <!-- escribir o seleccionar -->
         <select id="" class="w-full p-2 rounded bg-white/3 mb-3 text-black">
           <option value="">Todos</option>
           <option value="Brooklin">Cirurgia crânio-maxilo-facial </option>
@@ -355,11 +355,11 @@
             <div class="mt-3 text-base text-white/70">Estágios credenciados: <br>
 
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia Estética
+    cirurgia estética
     </span>
 
                 <br>
-                {{-- contorno corporal, cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, Cosmiatria --}}
+                {{-- contorno corporal, cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, cosmiatria --}}
 Palavras chave: <br>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     contorno corporal
@@ -379,7 +379,7 @@ Palavras chave: <br>
     cirurgia estética da face
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cosmiatria
+    cosmiatria
 </span>
 </div>
 
@@ -416,7 +416,7 @@ Palavras chave: <br>
           <div class="mt-3 text-base text-white/70">Estágios credenciados: <br>
 
             <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia estética
+    cirurgia estética
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia reparadora
@@ -557,16 +557,16 @@ Palavras-chave:
             </div>
             <div class="mt-3 text-base text-white/70">Estágios credenciados: <br>
                  <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Cirurgia crânio-maxilo-facial
+   cirurgia crânio-maxilo-facial
 </span>
  <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Tratamento de queimados
+   tratamento de queimados
 </span>
  <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Cirurgia reparadora
+   cirurgia reparadora
 </span>
  <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Microcirurgia
+   microcirurgia
 </span>
                  <br>
 Palavras chave: <br>
@@ -619,7 +619,7 @@ Palavras chave: <br>
 
 
                  <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Cirurgia reparadora
+   cirurgia reparadora
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     microcirurgia
@@ -631,7 +631,7 @@ Palavras chave: <br>
 {{-- Cirurgia reparadora mamária, retalhos, enxertos, microcirurgia --}}
 </div>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia reparadora mamária
+    cirurgia reparadora mamária
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia reparadora
@@ -682,11 +682,11 @@ Palavras chave: <br>
             <div class="mt-3 text-base text-white/70">Estágios credenciados: <br>
 
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Cirurgia Estética
+   cirurgia estética
 </span>
                 <br>
 Palavras chave: <br>
- {{-- contorno corporal, lipoaspiração de alta definição, cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, cirurgia estética pós bariátrica, Cosmiatria --}}
+ {{-- contorno corporal, lipoaspiração de alta definição, cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, cirurgia estética pós bariátrica, cosmiatria --}}
  <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
    contorno corporal
 </span>
@@ -731,11 +731,11 @@ Palavras chave: <br>
           <div class="mt-3 text-base text-white/70">Estágios credenciados: <br>
 
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Cirurgia Estética
+   cirurgia estética
 </span>
                 <br>
 Palavras chave: <br>
- {{-- contorno corporal, lipoaspiração de alta definição, cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, cirurgia estética pós bariátrica, Cosmiatria --}}
+ {{-- contorno corporal, lipoaspiração de alta definição, cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, cirurgia estética pós bariátrica, cosmiatria --}}
  <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
    contorno corporal
 </span>
@@ -759,7 +759,7 @@ Palavras chave: <br>
    cirurgia estética pós bariátrica
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Cosmiatria
+   cosmiatria
 </span>
 </span>
 <span class="text-white" id="keyword5-toggle"> <button onclick="keyword5()">...</button></span>
@@ -803,7 +803,7 @@ Hospital, Jardim Iracema, São Paulo</div>
             <div class="mt-3 text-base text-white/70">
                 Estágios credenciados:  <br>
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Tratamento de queimados
+    tratamento de queimados
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia de mão
@@ -864,10 +864,10 @@ Hospital, Jardim Iracema, São Paulo</div>
             <div class="mt-3 text-base text-white/70">Estágios credenciados:
                   <br>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia Estética
+    cirurgia estética
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia reparadora
+    cirurgia reparadora
 </span><br>
 Palavras chave: <br>
 
@@ -921,10 +921,10 @@ Palavras chave: <br>
             </div>
             <div class="mt-3 text-base text-white/70">Estágios credenciados: <br>
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia Estética
+    cirurgia estética
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia reparadora
+    cirurgia reparadora
 </span>
                   <br >
 
@@ -984,7 +984,7 @@ Palavras chave: <br>
             <div class="text-base text-white/60">Preferências: <br>
 
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia estética
+    cirurgia estética
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia reparadora
@@ -1002,7 +1002,22 @@ Palavras chave: <br>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia estética da face
 </span>
-<span class="text-white">...</span>
+<span id="keyword8" hidden>
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    rinoplastia
+</span>
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    cirurgia estética pós bariátrica
+</span>
+
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    cosmiatria
+</span>
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    orbitopalpebral
+</span>
+</span>
+<span class="text-white" id="keyword8-toggle"> <button onclick="keyword8()">...</button></span>
             </div>
             <div class="mt-3 flex gap-2">
             <a href="dashboard" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Agregar a favoritos</a>
@@ -1032,7 +1047,7 @@ Palavras chave: <br>
             <div class="text-base text-white/60">Preferências: <br>
 
             <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia estética
+    cirurgia estética
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia reparadora
@@ -1050,7 +1065,23 @@ Palavras chave: <br>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia estética da face
 </span>
-<span class="text-white">...</span>
+<span id="keyword7" hidden>
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    rinoplastia
+</span>
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    cirurgia estética pós bariátrica
+</span>
+
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    cosmiatria
+</span>
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    orbitopalpebral
+</span>
+</span>
+<span class="text-white" id="keyword7-toggle"> <button onclick="keyword7()">...</button></span>
+
             </div>
             <div class="mt-3 flex gap-2">
             <a href="dashboard" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Agregar a favoritos</a>
@@ -1874,7 +1905,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
     let _loadingTimer = null;
 
-  function loading(duration = 300) {
+  function loading(duration = 5000) {
     const loader = document.getElementById('fullscreen-loader');
     const container = document.getElementById('loading');
     const mapPlaceholder = document.getElementById('mapPlaceholder');
@@ -1981,7 +2012,7 @@ document.addEventListener('DOMContentLoaded', function () {
           <div class="mt-3 text-base text-white/70">Estágios credenciados: <br>
 
             <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia estética
+    cirurgia estética
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia reparadora
@@ -2051,10 +2082,10 @@ Palavras-chave:
 <span class="text-white">Palavras-chave:</span>
             <br>
 
-{{-- Palavras-chave: cirurgia mamaria, contorno corporal, cirurgia estética da face, cirurgia estética pós bariátrica, cosmiatria, orbitopalpebral --}}
+{{-- Palavras-chave: Cirurgia mamaria, contorno corporal, cirurgia estética da face, cirurgia estética pós bariátrica, cosmiatria, orbitopalpebral --}}
 
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    cirurgia mamaria
+    Cirurgia mamaria
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     contorno corporal
@@ -2094,11 +2125,11 @@ Palavras-chave:
           <div class="mt-3 text-base text-white/70">Estágios credenciados: <br>
 
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Cirurgia Estética
+   cirurgia estética
 </span>
                 <br>
 Palavras chave: <br>
- {{-- contorno corporal, lipoaspiração de alta definição, cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, cirurgia estética pós bariátrica, Cosmiatria --}}
+ {{-- contorno corporal, lipoaspiração de alta definição, Cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, cirurgia estética pós bariátrica, cosmiatria --}}
  <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
    contorno corporal
 </span>
@@ -2106,7 +2137,7 @@ Palavras chave: <br>
    lipoaspiração de alta definição
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   cirurgia mamária
+   Cirurgia mamária
 </span>
 <span id="keyword6" hidden>
     <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
@@ -2122,7 +2153,7 @@ Palavras chave: <br>
    cirurgia estética pós bariátrica
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Cosmiatria
+   cosmiatria
 </span>
 </span>
 
@@ -2201,7 +2232,7 @@ Hospital, Jardim Iracema, São Paulo</div>
             <div class="mt-3 text-base text-white/70">
                 Estágios credenciados:  <br>
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Tratamento de queimados
+    tratamento de queimados
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia de mão
@@ -2210,7 +2241,7 @@ Hospital, Jardim Iracema, São Paulo</div>
     cirurgia reparadora
 </span>
                  <br >
-{{-- Palavras chave: grande queimado, cirurgia reparadora, retalhos, enxertos. --}}
+{{-- Palavras chave: grande queimado, Cirurgia reparadora, retalhos, enxertos. --}}
 </div>
 <span class="text-white">Palavras-chave:</span>
             <br>
@@ -2262,14 +2293,14 @@ Hospital, Jardim Iracema, São Paulo</div>
             </div>
             <div class="mt-3 text-base text-white/70">Estágios credenciados: <br>
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia Estética
+    cirurgia estética
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia reparadora
+    cirurgia reparadora
 </span>
                   <br >
 
-                {{-- Palavras chave: Cirurgia mamária, contorno corporal, orbitopalpebral, rinoplastia, cirurgia estética da face, cirurgia estética pós bariátrica, cosmiatria, enxertos, retalhos, cirurgia oncológica da pele --}}
+                {{-- Palavras chave: Cirurgia mamária, contorno corporal, orbitopalpebral, rinoplastia, cirurgia estética da face, cirurgia estética pós bariátrica, cosmiatria, enxertos, retalhos, Cirurgia oncológica da pele --}}
 <span class="text-white">Palavras-chave:</span>
             <br>
 
@@ -2315,11 +2346,11 @@ Hospital, Jardim Iracema, São Paulo</div>
             <div class="mt-3 text-base text-white/70">Estágios credenciados: <br>
 
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia Estética
+    cirurgia estética
     </span>
 
                 <br>
-                {{-- contorno corporal, cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, Cosmiatria --}}
+                {{-- contorno corporal, Cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, cosmiatria --}}
 Palavras chave: <br>
     <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
         contorno corporal
@@ -2342,7 +2373,7 @@ Palavras chave: <br>
         cirurgia estética da face
     </span>
     <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-        Cosmiatria
+        cosmiatria
     </span>
 </div>
 <div class="text-white" id="keyword2-toggle"> <button onclick="keyword2()">...</button></div>
@@ -2375,16 +2406,16 @@ Palavras chave: <br>
             </div>
             <div class="mt-3 text-base text-white/70">Estágios credenciados: <br>
                  <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Cirurgia crânio-maxilo-facial
+   cirurgia crânio-maxilo-facial
 </span>
  <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Tratamento de queimados
+   tratamento de queimados
 </span>
  <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Cirurgia reparadora
+   cirurgia reparadora
 </span>
  <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Microcirurgia
+   microcirurgia
 </span>
                  <br>
 Palavras chave: <br>
@@ -2430,7 +2461,7 @@ Palavras chave: <br>
 
 
                  <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Cirurgia reparadora
+   cirurgia reparadora
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     microcirurgia
@@ -2439,10 +2470,10 @@ Palavras chave: <br>
     cirurgia de mão
 </span>
 Palavras chave: <br>
-{{-- Cirurgia reparadora mamária, retalhos, enxertos, microcirurgia --}}
+{{-- Cirurgia reparadora mamária, retalhos, enxertos, microCirurgia --}}
 </div>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia reparadora mamária
+    cirurgia reparadora mamária
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia reparadora
@@ -2481,11 +2512,11 @@ Palavras chave: <br>
             <div class="mt-3 text-base text-white/70">Estágios credenciados: <br>
 
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Cirurgia Estética
+   cirurgia estética
 </span>
                 <br>
 Palavras chave: <br>
- {{-- contorno corporal, lipoaspiração de alta definição, cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, cirurgia estética pós bariátrica, Cosmiatria --}}
+ {{-- contorno corporal, lipoaspiração de alta definição, Cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, cirurgia estética pós bariátrica, cosmiatria --}}
  <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
    contorno corporal
 </span>
@@ -2526,14 +2557,14 @@ Palavras chave: <br>
             <div class="mt-3 text-base text-white/70">Estágios credenciados:
                   <br>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia Estética
+    cirurgia estética
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia reparadora
+    cirurgia reparadora
 </span><br>
 Palavras chave: <br>
 
-{{-- contorno corporal, cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, cirurgia estética pós bariátrica, enxertos, retalhos, cirurgia oncológica da pele.--}}
+{{-- contorno corporal, cirurgia mamária, orbitopalpebral, rinoplastia, cirurgia estética da face, cirurgia estética pós bariátrica, enxertos, retalhos, Cirurgia oncológica da pele.--}}
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     contorno corporal
 </span>
@@ -2582,7 +2613,7 @@ Palavras chave: <br>
             <div class="text-base text-white/60">Preferências: <br>
 
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia estética
+    cirurgia estética
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia reparadora
@@ -2590,7 +2621,7 @@ Palavras chave: <br>
             </div>
             <div class="mt-3 text-base text-white/70">Palavras-chave: <br>
 
-                {{-- cirurgia mamária, contorno corporal, cirurgia estética da face, rinoplastia, cirurgia estética pós bariátrica, cosmiatria, orbitopalpebral  --}}
+                {{-- Cirurgia mamária, contorno corporal, cirurgia estética da face, rinoplastia, cirurgia estética pós bariátrica, cosmiatria, orbitopalpebral  --}}
                 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia mamária
 </span>
@@ -2600,7 +2631,22 @@ Palavras chave: <br>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia estética da face
 </span>
-<span class="text-white">...</span>
+<span id="keyword10" hidden>
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    rinoplastia
+</span>
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    cirurgia estética pós bariátrica
+</span>
+
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    cosmiatria
+</span>
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    orbitopalpebral
+</span>
+</span>
+<span class="text-white" id="keyword10-toggle"> <button onclick="keyword10()">...</button></span>
             </div>
             <div class="mt-3 flex gap-2">
             <a href="dashboard" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Agregar a favoritos</a>
@@ -2630,7 +2676,7 @@ Palavras chave: <br>
             <div class="text-base text-white/60">Preferências: <br>
 
             <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cirurgia estética
+    cirurgia estética
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia reparadora
@@ -2638,7 +2684,7 @@ Palavras chave: <br>
 
             </div>
             <div class="mt-3 text-base text-white/70">Palavras-chave: <br>
-                {{-- cirurgia mamária, contorno corporal, cirurgia estética da face, rinoplastia, cirurgia estética pós bariátrica, cosmiatria, orbitopalpebral --}}
+                {{-- Cirurgia mamária, contorno corporal, cirurgia estética da face, rinoplastia, cirurgia estética pós bariátrica, cosmiatria, orbitopalpebral --}}
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia mamária
 </span>
@@ -2648,7 +2694,22 @@ Palavras chave: <br>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
     cirurgia estética da face
 </span>
-<span class="text-white">...</span>
+<span id="keyword9" hidden>
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    rinoplastia
+</span>
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    cirurgia estética pós bariátrica
+</span>
+
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    cosmiatria
+</span>
+<span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
+    orbitopalpebral
+</span>
+</span>
+<span class="text-white" id="keyword9-toggle"> <button onclick="keyword9()">...</button></span>
             </div>
             <div class="mt-3 flex gap-2">
             <a href="dashboard" class="px-3 py-1 bg-white/10  hover:bg-emerald-600 rounded text-white text-base">Agregar a favoritos</a>
@@ -3029,6 +3090,22 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById("keyword6").hidden = false;
         document.getElementById("keyword6-toggle").hidden = true;
     }
+    function keyword7(){
+        document.getElementById("keyword7").hidden = false;
+        document.getElementById("keyword7-toggle").hidden = true;
+    }
+    function keyword8(){
+        document.getElementById("keyword8").hidden = false;
+        document.getElementById("keyword8-toggle").hidden = true;
+    }
+    function keyword9(){
+        document.getElementById("keyword9").hidden = false;
+        document.getElementById("keyword9-toggle").hidden = true;
+    }
+    function keyword10(){
+        document.getElementById("keyword10").hidden = false;
+        document.getElementById("keyword10-toggle").hidden = true;
+    }
 
 </script>
 
@@ -3065,12 +3142,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-        <div class="font-semibold text-white flex justify-between items-center p-2 bg-white/2 rounded">
+        {{-- <div class="font-semibold text-white flex justify-between items-center p-2 bg-white/2 rounded">
             <div class="font-semibold text-white ">Duração</div>
-
-        </div>
+             <div class="font-bold text-black "><input type="text" class="bg-[#1c5180] px-20 border-white text-white "  value="15 dias" ></div>
+        </div> --}}
 
         <div class="space-y-2">
+            <div class="font-semibold text-white  flex justify-between items-center p-2 bg-white/2 rounded">
+            <div class="font-semibold text-white ">Duração:</div>
+            <div class="font-bold text-black "><input type="text" class="bg-[#1c5180] px-20 border-white text-white "  value="15 dias" ></div>
+          </div>
           <div class="font-semibold text-white  flex justify-between items-center p-2 bg-white/2 rounded">
             <div class="font-semibold text-white ">Data de início:</div>
             <div class="font-bold text-black "><input type="text" class="bg-[#1c5180] px-20 border-white text-white "  value="01/09/2027" ></div>
@@ -3146,7 +3227,7 @@ Hospital Paulistano
    Lipoescultura de média definição
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Lipoescultura de média definição
+   Lipoescultura de alta definição
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
    Lipoenxertia guiada por ultrassonografia
@@ -3164,7 +3245,7 @@ Hospital Paulistano
    Rinoplastia aberta
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Ritidoplastia convencional
+   Ritidoplastia
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
    Blefaroplastia superior
@@ -3226,7 +3307,7 @@ Hospital Paulistano
    cirurgia estética pós bariátrica
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-   Cosmiatria
+   cosmiatria
 </span>
         </div>
 
@@ -3272,12 +3353,16 @@ Hospital Paulistano
 
 
 
-        <div class="font-semibold text-white flex justify-between items-center p-2 bg-white/2 rounded">
+        {{-- <div class="font-semibold text-white flex justify-between items-center p-2 bg-white/2 rounded">
             <div class="font-semibold text-white ">Duração</div>
 
-        </div>
+        </div> --}}
 
         <div class="space-y-2">
+            <div class="font-semibold text-white  flex justify-between items-center p-2 bg-white/2 rounded">
+            <div class="font-semibold text-white ">Duração:</div>
+            <div class="font-bold text-black "><input type="text" class="bg-[#1c5180] px-20 border-white text-white "  value="15 dias" ></div>
+          </div>
           <div class="font-semibold text-white  flex justify-between items-center p-2 bg-white/2 rounded">
             <div class="font-semibold text-white ">Data de início:</div>
             <div class="font-bold text-black "><input type="text" class="bg-[#1c5180] px-20 border-white text-white "  value="01/09/2027" ></div>
@@ -3414,7 +3499,7 @@ Clínica de Cirurgia Plástica - Dr Andre Parreira de Castro
    cirurgia estética da face
 </span>
 <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-blue-400/30">
-    Cosmiatria
+    cosmiatria
 </span>
 
         </div>
@@ -3465,12 +3550,16 @@ Clínica de Cirurgia Plástica - Dr Andre Parreira de Castro
 
 
 
-        <div class="font-semibold text-white flex justify-between items-center p-2 bg-white/2 rounded">
+        {{-- <div class="font-semibold text-white flex justify-between items-center p-2 bg-white/2 rounded">
             <div class="font-semibold text-white ">Duração</div>
 
-        </div>
+        </div> --}}
 
         <div class="space-y-2">
+            <div class="font-semibold text-white  flex justify-between items-center p-2 bg-white/2 rounded">
+            <div class="font-semibold text-white ">Duração:</div>
+            <div class="font-bold text-black "><input type="text" class="bg-[#1c5180] px-20 border-white text-white "  value="15 dias" ></div>
+          </div>
           <div class="font-semibold text-white  flex justify-between items-center p-2 bg-white/2 rounded">
             <div class="font-semibold text-white ">Data de início:</div>
             <div class="font-bold text-black "><input type="text" class="bg-[#1c5180] px-20 border-white text-white "  value="01/09/2027" ></div>
@@ -3839,7 +3928,7 @@ Clínica de Cirurgia Plástica - Dr Andre Parreira de Castro
   <div class="chat-container ">
     <div class="chat-header ">💬 Chat IASBCP</div>
     <div class="chat-body " id="chatBody">
-      <div class="bubble bot">  Ola 🤚  sou a inteligência artificial da SBCP. Percebi que está procurando vagas de estágio. Qual tipo de estágio seria para ajudá-lo?</div>
+      <div class="bubble bot">  Ola 🤚  sou a inteligência artificial da SBCP. Percebi que está procurando vagas de estágio. Qual tipo de estágio você está procurando?</div>
     </div>
 
     <div class="chat-footer">
